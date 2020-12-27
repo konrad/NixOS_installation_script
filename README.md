@@ -1,5 +1,6 @@
 # NixOS installation script
 
+
 Plain NixOS installation shell script to prepare a drive with LVM and
 LUKS (full disc encryption) and to install a very basic NixOS system.
 
@@ -20,3 +21,6 @@ sudo sh install_nixos.sh mount_fs_and_generate_config
 sudo sh install_nixos.sh adapt_config
 sudo sh install_nixos.sh install_nixos
 ```
+
+The adaption of the `configuration.nix` is rather basic and need
+further improvements later.
