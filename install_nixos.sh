@@ -34,7 +34,7 @@ set -o pipefail
 main(){
     # Use lsblk - to show available discs
     # Set!
-    readonly DISK=/dev/sda  # e.g /dev/sda or /dev/nvme0n1
+    readonly DISK=/dev/nvme0n1  # e.g /dev/sda or /dev/nvme0n1
     readonly USER_NAME=my_awesome_user_name
     readonly SWAP_SIZE=16G
     # readonly LUKS_PASSWORD="XXX" # TODO - does not work
