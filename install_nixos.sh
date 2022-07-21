@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# CC0 - Konrad Förstner <konrad@foerstner>, 2020
+# CC0 - Konrad Förstner <konrad@foerstner>, 2020 - 2022
 # https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
 # 
 # The code was build using the following sources:
