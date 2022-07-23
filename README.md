@@ -11,6 +11,12 @@ the script `install_nixos.sh` into the system e.g.
 curl https://raw.githubusercontent.com/konrad/NixOS_installation_script/main/install_nixos.sh > install_nixos.sh
 ```
 
+or
+
+```
+curl -L https://bit.ly/3B9upFp > install_nixos.sh
+```
+
 and adapt variables in the script as needed. Then run the script:
 
 ```
